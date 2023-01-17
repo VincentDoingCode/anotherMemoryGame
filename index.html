@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Matching Game</h1>
+  <div class="memory-game">
+    <div class="memory-card" data-framework="apple">
+      <img class="front-face" src="img/apple.png" alt="apple" />
+      <img class="back-face" src="img/back.png"  />
+    </div>
+    <div class="memory-card" data-framework="apple">
+      <img class="front-face" src="img/apple.png"  />
+      <img class="back-face" src="img/back.png"  />
+    </div>
+
+    <div class="memory-card" data-framework="banana">
+      <img class="front-face" src="img/banana.png"/>
+      <img class="back-face" src="img/back.png"  />
+    </div>
+    <div class="memory-card" data-framework="banana">
+      <img class="front-face" src="img/banana.png" />
+      <img class="back-face" src="img/back.png" />
+    </div>
+
+    <div class="memory-card" data-framework="grape">
+      <img class="front-face" src="img/grape.png" />
+      <img class="back-face" src="img/back.png" />
+    </div>
+    <div class="memory-card" data-framework="grape">
+      <img class="front-face" src="img/grape.png" />
+      <img class="back-face" src="img/back.png"/>
+    </div>
+
+    <div class="memory-card" data-framework="kiwi">
+      <img class="front-face" src="img/kiwi.png" />
+      <img class="back-face" src="img/back.png" />
+    </div>
+    <div class="memory-card" data-framework="kiwi">
+      <img class="front-face" src="img/kiwi.png"/>
+      <img class="back-face" src="img/back.png" />
+    </div>
+
+    <div class="memory-card" data-framework="mango">
+      <img class="front-face" src="img/mango.png"  />
+      <img class="back-face" src="img/back.png"  />
+    </div>
+    <div class="memory-card" data-framework="mango">
+      <img class="front-face" src="img/mango.png" />
+      <img class="back-face" src="img/back.png" />
+    </div>
+
+    <div class="memory-card" data-framework="orange">
+      <img class="front-face" src="img/orange.png"/>
+      <img class="back-face" src="img/back.png"  />
+    </div>
+    <div class="memory-card" data-framework="orange">
+      <img class="front-face" src="img/orange.png" />
+      <img class="back-face" src="img/back.png" />
+    </div>
+    <div class="memory-card" data-framework="pear">
+      <img class="front-face" src="img/pear.png"/>
+      <img class="back-face" src="img/back.png" />
+    </div>
+    <div class="memory-card" data-framework="pear">
+      <img class="front-face" src="img/pear.png"/>
+      <img class="back-face" src="img/back.png"/>
+    </div>
+    <div class="memory-card" data-framework="strawberry">
+      <img class="front-face" src="img/strawberry.png"/>
+      <img class="back-face" src="img/back.png" />
+    </div>
+    <div class="memory-card" data-framework="strawberry">
+      <img class="front-face" src="img/strawberry.png"/>
+      <img class="back-face" src="img/back.png" />
+    </div>
+  </div>
+  <br>
+  <p>Click: <span id="click"></span></p>
+  <button onclick="reset();">Reset</button>
+  <script src="scripts.js"></script>
+</body>
+</html>
